@@ -32,7 +32,7 @@ function deleteMail() {
     // Simulate click on dropdown menu
     triggerMostButtons(document.querySelector('div[data-message-id] div[data-tooltip="More"]'));
     // Simulate click on 'Delete this message' menu item
-    var deleteMenuItem = document.querySelector('div[class="b7 J-M"] #tm');
+    var deleteMenuItem = document.querySelector('div[class="b7 J-M"] #mtb');
     // This needs to be triggered twice for some reason
     triggerMostButtons(deleteMenuItem);
     triggerMostButtons(deleteMenuItem);
